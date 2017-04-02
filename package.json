@@ -1,0 +1,29 @@
+{
+  "name": "s-util",
+  "version": "0.1.2",
+  "license": "BSD-3-Clause",
+  "author": "Siyun Lai [sizeon@gmail.com]",
+  "contributors": [],
+  "description": "A bundle of useful libraries and tools.",
+  "keywords": [
+    "util",
+    "tool",
+    "stream",
+    "promise"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4"
+  },
+  "engines": {
+    "node": ">6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siyunlai/s-util"
+  }
+}
