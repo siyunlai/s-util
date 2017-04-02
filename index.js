@@ -13,7 +13,7 @@ function streamToPromise(stream) {
 
 Promise.fromStream = streamToPromise;
 
-exports.default = {
+module.exports = {
   Promise: Promise,
   _: lodash
 };
